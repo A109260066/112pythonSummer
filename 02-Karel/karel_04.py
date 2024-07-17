@@ -3,6 +3,10 @@ import os
 
 def main():
     """ Karel code goes here! """
+    move()
+    for i in range(42):
+        put_beeper()
+    move()
     pass
 
 if __name__ == "__main__":
